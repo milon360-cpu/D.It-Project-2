@@ -54,7 +54,8 @@ header
         max-width: 50%;
         color: white;
         margin: 0px auto;
-        text-align: center;
+        text-align: justify;
+        font-size: 25px;
     }
    /* banner section  end here */
    /* About Section Style started here  */
@@ -142,10 +143,11 @@ header
     max-width: 80%;
     margin: 20px 0px;
    }
-   /* Service Section style start here  */
+   /* Service Section style started here  */
    .services 
    {
     text-align: center;
+    margin: 10px 0px;
    }
    .services i 
    {
@@ -169,4 +171,131 @@ header
      border: none;
      border-bottom: 3px solid goldenrod;
    }
+   /* Facilities Section style started here  */
+   .facilities-section
+   {
+     background-color: #F1EDEA;
+     padding: 50px 10px;
+   }
+   .facilities-header 
+   {
+    text-align: center;
+   }
+   .facilities-header hr 
+   {
+    width: 20%;
+    border: none;
+    border-bottom: 4px solid goldenrod;
+    margin: 0px auto;
+   }
+   .facilities-images 
+   {
+     padding: 20px 0px;
+   }
+   .facilities-images img 
+   {
+    width: 100%;
+    height: 250px;
+   }
+    /* Facilities Section style end here  */
+    /* Testimonial Section style started here  */
+    .testimonial-header
+    {
+        text-align: center;
+        padding: 70px 10px;
+    }
+    .testimonial-header hr 
+    {
+      max-width: 18%;
+      border: none;
+      border-bottom: 4px solid goldenrod;
+      margin: 0px auto;
+    }
+    .testimonial-card i 
+    {
+      color: goldenrod;
+    }
+    .testimonial-card 
+    {
+       text-align: center;
+       box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.592);
+       padding: 50px;
+       border-radius: 5px;
+       transition: .2s all;
+    }
+    .testimonial-card:hover 
+    {
+      transform:skew(-2deg);
+    }
+    /* Testimonial Section style end here  */
+    /* Contact Section style Started here  */
+      .contact-section 
+      {
+        background-color: #F1EDEA;
+        padding: 70px 10px;
+      }
+      .contact-header 
+      {
+        text-align: center;
+      }
+      .contact-header hr 
+      {
+        width: 10%;
+        border: none;
+        border-bottom: 4px solid goldenrod;
+        margin: 0px auto;
+      }
+      .icon-details 
+      {
+        display: flex;
+      }
+      .icon i 
+      {
+        color: goldenrod;
+      }
+      .details h6 
+      {
+        margin: 0px;
+        font-size: 18px;
+        color: goldenrod;
+      }
+    
+      .form-container input 
+      {
+        width: 100%;
+        margin: 10px;
+        height: 35px;
+        padding: 5px 10px;
+        border: 1px solid goldenrod;
+        border-radius: 5px;
+      }
+      .form-container textarea 
+      {
+        width: 100%;
+        height: 200px;
+        margin: 10px;
+        padding: 5px 10px;
+        border: 1px solid goldenrod;
+        border-radius: 5px;
+        resize: none;
+      }
+    /* Contact Section style end here  */
+    
 /* main section's style here  */
+  /* Footer Section Started here  */
+  .footer-section 
+  {
+    background-color:rgba(219, 161, 13, 0.598) ;
+  }
+  /* Footer Section End Here */
+
+/* Responsive Section Here  */
+  @media screen and (max-width:1079px)
+  {
+    .banner-container h1 
+    {
+      max-width: 100%;
+      text-align: left;
+    
+    }
+  }
